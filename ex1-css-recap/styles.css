@@ -1,0 +1,120 @@
+.banner{
+    height: 70vh;
+    width: 100%;
+    font-size: 30px;
+    background-color: gray;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 7%;
+}
+
+h1{
+    text-align: center;
+
+}
+h2{
+    text-align: center;
+}
+.btn{
+   text-align: center;
+   font-size: 20px;
+   color: coral;
+   border-radius: 10px;
+}
+.grid-container{
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr .6fr;
+        grid-gap: 10px;
+        padding: 10px;
+
+}
+
+.grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+ }
+ .box1{
+     background-color: blue; 
+ }
+
+ figure{
+     padding: 60px;
+     border-radius: 10px;
+     width: 60px;
+     height: 60px;
+     background-color: darkgrey;
+ }
+ .box1{
+    background-color: blue; 
+}
+.box2{
+    background-color: yellow;
+}
+.box3{
+    background-color:tomato; 
+}
+.box4{
+    background-color:gray; 
+}
+.box5{
+    background-color:tomato; 
+}
+.box6{
+    background-color:tomato; 
+}
+.box7{
+    background-color:tomato; 
+}
+.box8{
+    background-color: tomato;
+}
+h1 span{
+    font-size: 75px;
+    margin-top: .3em;
+    text-shadow: 2px 2px 2px coral;
+    color: coral;
+    margin-left: 1em;
+
+}
+ .pdt-title img{
+ float: left;
+ size: 500px;
+ width: 600px;
+ height: 500px;
+}
+.flexbox{
+    display: flex;
+    border: 1px solid color red;
+    justify-content: space-around;
+}
+.pdt1{
+    background-color: red;
+    padding: 60px;
+     border-radius: 10px;
+     width: 30px;
+     height: 30px;
+}
+.pdt2{
+    background-color:purple;
+    padding: 60px;
+     border-radius: 10px;
+     width: 30px;
+     height: 30px;
+}
+.pdt3{
+    background-color:olive;
+    padding: 60px;
+     border-radius: 10px;
+     width: 30px;
+     height: 30px;
+}
+.pdt4{
+    background-color:yellow;
+    padding: 60px;
+     border-radius: 10px;
+     width: 30px;
+     height: 30px;
+}
