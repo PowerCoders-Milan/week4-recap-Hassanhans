@@ -88,7 +88,12 @@ h1 span{
 .flexbox{
     display: flex;
     border: 1px solid color red;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-top: 300px;
+    padding: 60px;
+    border-radius: 10px;
+    margin-left: 480px;
+   
 }
 .pdt1{
     background-color: red;
@@ -117,4 +122,29 @@ h1 span{
      border-radius: 10px;
      width: 30px;
      height: 30px;
+}
+.btn-pdt{
+    padding: 1px;
+    align-items: center;
+    border-radius: 20px;
+    background-color: coral;
+    width: 250px;
+    height: 5vh;
+    font-size: 30px;
+    color: white;
+}
+.pdt-title h1{
+    text-align: left;
+    font-size: 50px;
+    color: tomato;
+    text-shadow: tomato;
+}
+.pdt-title p{
+    font-size: 15px;
+}
+.btn-back{
+    color: grey;
+    font-size: 30px;
+    text-align: right;
+    float: right;
 }
